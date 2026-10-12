@@ -14,7 +14,7 @@ services:
       - springboot-postgres-net
 
   backend:
-    image: username/docker-git-actions-backend:latest
+    image: chakkasravyanjali/docker-git-actions-backend:latest  //images is directly pushed to docker username given in the url
     container_name: docker-springboot
     ports:
       - "2025:2000"
@@ -25,7 +25,7 @@ services:
       - springboot-postgres-net
 
   frontend:
-    image: username/docker-git-actions-frontend:latest
+    image: chakkasravyanjali/docker-git-actions-frontend:latest  //images is directly pushed to docker username given in the url
     container_name: docker-react
     ports:
       - "3000:80"
