@@ -128,12 +128,12 @@ const StudentManager = () => {
 )}
 
 
-      <h2>Student Management</h2>
+      <h2>Student Management-2400032052</h2>
 
       <div>
         <h3>{editMode ? 'Edit Student' : 'Add Student'}</h3>
         <div className="form-grid">
-          <input type="number" name="2400032052" placeholder="ID" value={student.id} onChange={handleChange} />
+          <input type="number" name="id" placeholder="ID" value={student.id} onChange={handleChange} />
           <input type="text" name="name" placeholder="Name" value={student.name} onChange={handleChange} />
           <select name="gender" value={student.gender} onChange={handleChange}>
             <option value="">Select Gender</option>
